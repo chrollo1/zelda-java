@@ -2,6 +2,7 @@
 Zelda Game written in Java *(W.I.P)*
 
 ![alt text](https://media.giphy.com/media/bFplepDUW82iV0l0FC/giphy.gif)
+![alt text](https://media.giphy.com/media/1r97mBmJipHc53iVPp/giphy.gif)
 
 ## The game loop:
 ![alt text](ex_1.png?raw=true "Title")
