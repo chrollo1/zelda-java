@@ -1,6 +1,8 @@
 # Legend of Zelda
 Zelda Game written in Java *(W.I.P)*
 
+![alt text] (https://media.giphy.com/media/bFplepDUW82iV0l0FC/giphy.gif)
+
 ## The game loop:
 ![alt text](ex_1.png?raw=true "Title")
 ## The State system:
