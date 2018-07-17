@@ -28,7 +28,7 @@ if not grass:
   walkable[16 * i + j] = true
 else
   walkable[16 * i + j] = false
-  
+```
 ![alt text](https://media.giphy.com/media/BzkSetWnfsembS05vB/giphy.gif)
 
 
