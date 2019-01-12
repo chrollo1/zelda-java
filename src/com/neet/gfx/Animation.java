@@ -3,7 +3,6 @@ package com.neet.gfx;
 import java.awt.image.BufferedImage;
 
 public class Animation {
-
 	private int rate, index;
 	private long lastTime, timer;
 	private BufferedImage[] frames;
@@ -30,13 +29,11 @@ public class Animation {
 			if (index >= frames.length) {
 				index = 0;
 			}
-		}
-		
+		}		
 	}
 	
 	// getter: 
 	public BufferedImage getCurrentFrame() {
 		return frames[index];
 	}
-	
 }
