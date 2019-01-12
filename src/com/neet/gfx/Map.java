@@ -9,9 +9,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-
 public class Map {
-
 	public static BufferedReader br = null;
 	public static BufferedImage[] bg_tile = new BufferedImage[176];
 	public BufferedImage image;
@@ -28,16 +26,14 @@ public class Map {
 	 * 		from Game.java for y position in world
 	 */
 	
-	public void mapLoad(int mapX, int mapY) {
-		
+	public void mapLoad(int mapX, int mapY) {		
 		try {
 			br = new BufferedReader(new FileReader("res/maps/" + mapX + " " + mapY + ".txt"));
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 		
-		for (int i = 0; i < 11; i++) {
-			
+		for (int i = 0; i < 11; i++) {			
 			try {
 				String s = br.readLine();
 				String[] nums = s.split(",");
@@ -71,9 +67,7 @@ public class Map {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
-		}
-		
+		}		
 	}
 	
 /*	public int getColTile(float x) {
@@ -94,6 +88,5 @@ public class Map {
 		int col = (int) Math.floor(y / 32);
 				
 		return walkable[16 * col + row];
-	}*/
-		
+	}*/		
 }
