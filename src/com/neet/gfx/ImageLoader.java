@@ -5,7 +5,6 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
 public class ImageLoader {
-
 	/**
 	 * @param path
 	 * 		file location of image
@@ -19,6 +18,5 @@ public class ImageLoader {
 			e.printStackTrace();
 		}
 		return null;
-	}
-	
+	}	
 }
