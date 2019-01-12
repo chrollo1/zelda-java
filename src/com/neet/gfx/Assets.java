@@ -12,14 +12,14 @@ public class Assets {
 	public static int height = 79;
 	
 	public static BufferedImage[] 	link_up, 
-								  	link_down, 
-								  	link_left, 
-								  	link_right;
+					link_down, 
+					link_left, 
+					link_right;
 
 	public static BufferedImage[] 	link_attack_up, 
-							      	link_attack_down, 
-							        link_attack_left, 
-							        link_attack_right;
+				   	link_attack_down, 
+				        link_attack_left, 
+				        link_attack_right;
 	
 	public static BufferedImage 	item_img;
 	public static BufferedImage     lifeText;
