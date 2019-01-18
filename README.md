@@ -9,7 +9,7 @@ Zelda Game written in Java *(W.I.P)*
 ## The State system:
 ![alt text](ex_2.png?raw=true "Title")
 
-### My program read comma-seperated text files and outputs a map using the following function:
+### My program reads comma-seperated text files and outputs a map using the following function:
 
 ```
 mapLoad(x, y):
